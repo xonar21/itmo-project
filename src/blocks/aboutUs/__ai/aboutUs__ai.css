@@ -1,0 +1,14 @@
+.aboutUs__ai {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    margin:12px 0 50px;  
+}
+
+@media screen and (max-width: 1124px) {
+    .aboutUs__ai {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}

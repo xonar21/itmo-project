@@ -1,0 +1,9 @@
+.aboutUs__point {
+    margin: 0;
+    margin-right: 12px;
+    opacity: 0.5;
+}
+
+.aboutUs__point:nth-of-type(4) {
+    margin-right: 0;
+}

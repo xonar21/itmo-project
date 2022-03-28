@@ -21,6 +21,14 @@
 
 @font-face {
     src: 
+    url(../fonts/OpenSans-Italic.ttf) format('truetype');
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    src: 
     url(../fonts/OpenSans-Light.ttf) format('truetype');
     font-family: "OpenSans";
     font-weight: 300;

@@ -1,0 +1,14 @@
+.aboutUs__cards {
+   left: 0px;
+   display: flex;
+   width: 1123px;
+   transition: all 0.5s ease;
+   position: relative; 
+}
+
+@media screen and (max-width: 1124px) {
+   .aboutUs__cards {
+      width: 740px;
+   }
+}
+
