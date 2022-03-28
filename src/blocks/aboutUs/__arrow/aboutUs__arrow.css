@@ -4,7 +4,7 @@
     transform-origin: 0% 0%;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1421px) {
     .aboutUs__arrow {
         display: none;
     }

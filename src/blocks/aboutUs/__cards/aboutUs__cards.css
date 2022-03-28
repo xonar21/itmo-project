@@ -6,7 +6,7 @@
    position: relative; 
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1229px) {
    .aboutUs__cards {
       width: 740px;
    }
