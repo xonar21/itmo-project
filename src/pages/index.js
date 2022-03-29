@@ -5,17 +5,11 @@ let left = 0
 const sliderLine = document.querySelector('.aboutUs__cards');
 const card = document.querySelectorAll('.aboutUs__card');
 const dots = document.querySelectorAll('.aboutUs__point');
-let count = 0;
-function funLength() {
-  if(windowOuterWidth < 1124) {
-    count = dots.length - 1
-  } else {
-    count = dots.length - 2
-  }
-  
-};
+let count = dots.length - 1;
 
-funLength()
+if(windowOuterWidth < 746) {
+  offset = 0
+}
 dots[current].classList.add('aboutUs__point_active')
 if (left > 0) {
   offset = offset + 1148;
@@ -90,7 +84,7 @@ function handleTouchMove(event) {
   let xDiff = x2 - x1;
   let yDiff = y2 - y1;
   
-  if(windowOuterWidth < 1124) {
+  if(windowOuterWidth < 1225 && windowOuterWidth > 746) {
     if (Math.abs(xDiff) > Math.abs(yDiff)) {
       if (xDiff > 0) {
         offset = offset - 765;
@@ -128,6 +122,44 @@ function handleTouchMove(event) {
         }
       }
     }
+  } else if(windowOuterWidth < 746) {
+    if (Math.abs(xDiff) > Math.abs(yDiff)) {
+      if (xDiff > 0) {
+        offset = offset - 321;
+        sliderLine.style.left = -offset + 'px';
+        if (offset == -321) {
+          offset = 2889
+          sliderLine.style.left = -offset + 'px';
+        }
+        if(current == 0) {
+          dots[current].classList.remove('aboutUs__point_active')
+          current = current + count;
+          dots[current].classList.add('aboutUs__point_active')
+        }
+        else {
+          dots[current].classList.remove('aboutUs__point_active')
+          current--;
+          dots[current].classList.add('aboutUs__point_active')
+        }
+      }
+      else {
+        offset = offset + 321;
+        sliderLine.style.left = -offset + 'px';
+        if (offset == 3210) {
+          offset = 0
+          sliderLine.style.left = -offset + 'px';
+        }
+        if(current == count) {
+          dots[current].classList.remove('aboutUs__point_active')
+          current = 0
+          dots[current].classList.add('aboutUs__point_active')
+        } else {
+          dots[current].classList.remove('aboutUs__point_active')
+          current = current + 1
+          dots[current].classList.add('aboutUs__point_active')
+        }
+      }
+    }
   }
 
   x1 = null;
@@ -148,3 +180,37 @@ burgerMenu.addEventListener('click', () => {
 exit.addEventListener('click', () => {
   menu.classList.remove('header__menu_active')
 })
+//всплывающие ссылки
+const linkEducation = document.querySelector('#educ');
+const linkPopUp = document.querySelector('.header__link_group');
+linkEducation.addEventListener('click', () => {
+  if(linkPopUp.style.opacity == 1) {
+    linkPopUp.style.opacity = 0
+  } else {
+    linkPopUp.style.opacity = 1
+  }
+})
+//всплывающие ссылки на телефоне
+const linkEducationMobile = document.querySelector('#educm');
+const linkOpacity = document.querySelectorAll('.opacity');
+const linkPopUpMobile = document.querySelector('.header__link_mobile_group');
+linkEducationMobile.addEventListener('click', () => {
+  if(linkPopUpMobile.style.opacity == 1) {
+    linkOpacity.forEach((item) => {
+      item.style.opacity = 1
+    })
+    linkPopUpMobile.style.opacity = 0;
+    linkPopUpMobile.style.position = 'absolute';
+    linkPopUpMobile.style.visibility = 'hidden';
+    linkEducationMobile.style.fontWeight = 400
+  } else {
+    linkOpacity.forEach((item) => {
+      item.style.opacity = 0.5
+    })
+    linkEducationMobile.style.fontWeight = 600
+    linkPopUpMobile.style.opacity = 1;
+    linkPopUpMobile.style.position = 'relative';
+    linkPopUpMobile.style.visibility = 'visible';
+  }
+})
+

@@ -15,3 +15,11 @@
         max-width: 690px;
     }
 }
+
+@media screen and (max-width: 746px) {
+    .aboutUs__nti {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 288px;
+    }
+}
