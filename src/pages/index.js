@@ -115,9 +115,24 @@ const burgerMenu = document.querySelector('.header__buttonMenu');
 const menu = document.querySelector('.header__menu');
 const exit = document.querySelector('.header__exit');
 
-burgerMenu.addEventListener('click', () => {
+/*burgerMenu.addEventListener('click', () => {
   menu.classList.add('header__menu_active')
 })
 exit.addEventListener('click', () => {
   menu.classList.remove('header__menu_active')
-})
+})*/
+
+/*education block script*/
+const magistrBtn = document.querySelector('.education__tab_magistr');
+const aspirantBtn = document.querySelector('.education__tab_aspirant');
+
+function handleClickOnEducationBar() {
+  magistrBtn.classList.toggle('education__tab_active');
+  aspirantBtn.classList.toggle('education__tab_active');
+  document.querySelector('.education__card_magistr').classList.toggle('education__card_inActive');
+  document.querySelector('.education__card_aspirant').classList.toggle('education__card_inActive');
+}
+
+magistrBtn.addEventListener('click', handleClickOnEducationBar);
+aspirantBtn.addEventListener('click', handleClickOnEducationBar);
+/*///////////////*/
