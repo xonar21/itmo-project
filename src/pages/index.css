@@ -7,3 +7,25 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);
 /* header */
+
+
+@import url(../blocks/page/__publications/page__publications.css);
+@import url(../blocks/publication/__title/publication__title.css);
+
+/* Публикации */
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/list/list.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__authors/card__authors.css);
+@import url(../blocks/card/__body/card__body.css);
+@import url(../blocks/card/__bottom/card__bottom.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__title/card__title.css);
+
+@import url(../blocks/list/list.css);
+@import url(../blocks/link/link.css);
