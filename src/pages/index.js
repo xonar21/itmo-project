@@ -174,13 +174,13 @@ const burgerMenu = document.querySelector('.header__buttonMenu');
 const menu = document.querySelector('.header__menu');
 const exit = document.querySelector('.header__exit');
 
-/*burgerMenu.addEventListener('click', () => {
+burgerMenu.addEventListener('click', () => {
   menu.classList.add('header__menu_active')
 })
 exit.addEventListener('click', () => {
   menu.classList.remove('header__menu_active')
-<<<<<<< HEAD
-})*/
+
+})
 
 /*education block script*/
 const magistrBtn = document.querySelector('.education__tab_magistr');
@@ -196,8 +196,7 @@ function handleClickOnEducationBar() {
 magistrBtn.addEventListener('click', handleClickOnEducationBar);
 aspirantBtn.addEventListener('click', handleClickOnEducationBar);
 /*///////////////*/
-=======
-})
+
 //всплывающие ссылки
 const linkEducation = document.querySelector('#educ');
 const linkPopUp = document.querySelector('.header__link_group');
@@ -232,4 +231,4 @@ linkEducationMobile.addEventListener('click', () => {
   }
 })
 
->>>>>>> aboutUs
+
