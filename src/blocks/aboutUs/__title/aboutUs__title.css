@@ -5,3 +5,11 @@
     letter-spacing: 0.1px;
     margin: 0;
 }
+
+@media screen and (max-width: 746px) {
+    .aboutUs__title {
+        font-size: 32px;
+        line-height: 44px;
+        width: 256px;
+    }
+ }

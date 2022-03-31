@@ -10,3 +10,9 @@
     border: 1px solid #ffffff;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 746px) {
+    .aboutUs__button {
+        width: 288px;
+    }
+}

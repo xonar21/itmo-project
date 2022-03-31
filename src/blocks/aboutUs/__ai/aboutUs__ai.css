@@ -12,3 +12,11 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 746px) {
+    .aboutUs__ai {
+        font-size: 14px;
+        margin-bottom: 19px;
+        width: 288px;
+    }
+}
