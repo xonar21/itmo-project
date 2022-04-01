@@ -1,0 +1,4 @@
+.swiper__arrow_rigth {
+  transform: rotate(180deg);
+  margin: auto 0 auto 16px;
+}

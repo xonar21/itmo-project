@@ -1,0 +1,15 @@
+.swiper__arrow {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .swiper__arrow {
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+}
