@@ -15,9 +15,11 @@
 /* Публикации */
 
 @import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/cards_publications.css);
 
 @import url(../blocks/list/list.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__article/card__article.css);
 @import url(../blocks/card/__authors/card__authors.css);
 @import url(../blocks/card/__body/card__body.css);
 @import url(../blocks/card/__bottom/card__bottom.css);

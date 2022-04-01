@@ -1,5 +1,4 @@
-import {publications, cards, cardTemplate} from './constance.js'
-
+import { publications, cards, cardTemplate } from "./constance.js";
 
 function renderCards(publications) {
   publications.forEach((card) => {
@@ -14,9 +13,10 @@ function createCard(publication) {
   cardElementImage.alt = publication.title;
   cardElement.querySelector(".card__title").textContent = publication.title;
   cardElement.querySelector(".card__authors").textContent = publication.authors;
-  cardElement.querySelector(".card__description").textContent = publication.text;
+  cardElement.querySelector(".card__description").textContent =
+    publication.text;
   // setEventListeners();
   return cardElement;
 }
 
-renderCards(publications)
+renderCards(publications);
