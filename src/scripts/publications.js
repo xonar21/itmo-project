@@ -3,7 +3,7 @@ import {publications, cards, cardTemplate} from './constance.js'
 
 function renderCards(publications) {
   publications.forEach((card) => {
-    cards.append(createCard(card.image, card.title, card.authors, card.text));
+    cards.append(createCard(card));
   });
 }
 
