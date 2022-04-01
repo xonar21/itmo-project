@@ -1,0 +1,11 @@
+.projects__menu-item {
+  width: 25%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+

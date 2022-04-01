@@ -43,4 +43,31 @@
 /* aboutUs */
 
 
+/* projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__wrapper/projects__wrapper.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__menu/projects__menu.css);
+@import url(../blocks/projects/__menu-item/projects__menu-item.css);
+@import url(../blocks/projects/__menu-item-link/projects__menu-item-link.css);
+@import url(../blocks/projects/__menu-item/_active/projects__menu-item_active.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__item-logo/projects__item-logo.css);
+@import url(../blocks/projects/__item-about/projects__item-about.css);
+@import url(../blocks/projects/__item-details/projects__item-details.css);
+@import url(../blocks/projects/__pagination-arrow/projects__pagination-arrow.css);
+@import url(../blocks/projects/__pagination-arrow/_left/projects__pagination-arrow_left.css);
+@import url(../blocks/projects/__pagination-arrow/_right/projects__pagination-arrow_right.css);
 
+@import url(../blocks/projects/__dropdown/projects__dropdown.css);
+@import url(../blocks/projects/__dropdown-content/projects__dropdown-content.css);
+@import url(../blocks/projects/__dropdown-menu/projects__dropdown-menu.css);
+@import url(../blocks/projects/__dropdown-menu-item/projects__dropdown-menu-item.css);
+@import url(../blocks/projects/__dropdown-menu-link/projects__dropdown-menu-link.css);
+@import url(../blocks/projects/__menu-dropdown-button/projects__menu-dropdown-button.css);
+@import url(../blocks/projects/__dropdown-content/_opened/projects__dropdown-content_opened.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+
+
+
+/* projects */
