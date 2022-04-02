@@ -1,4 +1,11 @@
 .projects__dropdown {
   display: none;
+  
 }
 
+@media screen and (max-width: 530px) {
+  .projects__dropdown {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,15 +1,18 @@
 .projects__item {
-  margin-right: 29px;
+  padding: 20px;
+  
   max-width: 254px;
   min-height: 307px;
   background-image: url('../../../images/factory.png');
   background-color: #009FAC;
   background-position: bottom;
-  background-size: inherit;
   background-repeat: no-repeat;
   border-radius: 10px;
   color: white;
-  transition: all .15s ease;
+  transition: all .3s linear;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 
@@ -17,20 +20,6 @@
   .projects__item {
     max-width: 210px;
     min-height: 280px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .projects__item {
-    margin-right: 8px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .projects__item {
-    background-image: none;
-    max-width: 140px;
-    min-height: 220px;
   }
 }
 
@@ -45,4 +34,5 @@
 
 .projects__item:last-child {
   margin-right: 0px;
+  margin: 0 auto;
 }

@@ -9,3 +9,8 @@
   border-bottom: 5px solid transparent;
 }
 
+@media screen and (max-width: 530px) {
+  .projects__menu-item {
+    display: none;
+  }
+}

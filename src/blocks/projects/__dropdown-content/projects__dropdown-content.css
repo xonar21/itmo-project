@@ -1,5 +1,5 @@
 .projects__dropdown-content {
-  min-width: 320px;
+  width: 100%;
   min-height: 300px;
   left: 0;
   display: none;
