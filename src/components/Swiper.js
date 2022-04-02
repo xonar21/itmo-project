@@ -26,3 +26,14 @@ function slider(perview,group) {
             slider(3,3)
         }
         
+window.addEventListener('resize', () => {
+    windowOuterWidth = window.outerWidth
+    if(windowOuterWidth < 1368 && windowOuterWidth > 786) {
+        slider(2,1)
+    } else if (windowOuterWidth < 786) {
+        slider(1,1)
+    }
+     else {
+        slider(3,3)
+    }
+})
