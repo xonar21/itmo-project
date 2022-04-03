@@ -61,10 +61,6 @@ projectsArray.forEach((projec) => {
 });
 
 
-
-
-console.log(projectsArray)
-
 let menu = document.querySelector('.projects__menu');
 let allObjects = document.querySelectorAll('.swiper-slide');
 
