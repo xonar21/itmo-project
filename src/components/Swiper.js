@@ -1,5 +1,5 @@
-let windowOuterWidth = window.outerWidth 
-
+import {aboutArray} from '../utils/aboutUsArray.js';
+let windowOuterWidth = window.outerWidth; 
 function slider(perview,group) {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: perview,
@@ -36,4 +36,17 @@ window.addEventListener('resize', () => {
      else {
         slider(3,3)
     }
+})
+
+const aboutUsContainer = document.querySelector('.aboutUs-container')
+aboutArray.forEach((item) => {
+    let aboutUsElement = document
+        .querySelector('#aboutUs-element') 
+        .content                           
+        .querySelector('.swiper-slide')          
+        .cloneNode(true);
+    aboutUsElement.querySelector('.aboutUs__date').textContent = item.date
+    aboutUsElement.querySelector('.aboutUs__smallTitle').textContent = item.title;
+    aboutUsElement.querySelector('.aboutUs__text').textContent = item.text;
+    aboutUsContainer.append(aboutUsElement);
 })
