@@ -1,3 +1,4 @@
+
 .swiper {
     overflow: visible;
     overflow-x: clip;
@@ -7,6 +8,8 @@
     padding-left: 10px;
     box-sizing: border-box;
   }
+
+
 
   .swiper-slide {
     flex-direction: column;
@@ -90,4 +93,8 @@
         height: 260px;
         padding: 16px 16px 0;
     }
+}
+
+.swiper-padding-none {
+    padding: 0;
 }
