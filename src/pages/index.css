@@ -15,6 +15,10 @@
 @import url(../blocks/header/__mobileGroup/header__mobileGroup.css);
 @import url(../blocks/header/__exit/header__exit.css);
 @import url(../blocks/header/__menu/_active/header__menu_active.css);
+@import url(../blocks/header/__link/_pop-up/header__link_pop-up.css);
+@import url(../blocks/header/__link/_group/header__link_group.css);
+@import url(../blocks/header/__link/_mobile/_group/header__link_mobile_group.css);
+@import url(../blocks/header/__link/_mobile/_pop-up/header__link_mobile_pop-up.css);
 /* header */
 /* aboutUs */
 @import url(../blocks/aboutUs/aboutUs.css);
@@ -43,6 +47,7 @@
 /* aboutUs */
 
 
+
 /* projects */
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__wrapper/projects__wrapper.css);
@@ -67,3 +72,33 @@
 @import url(../blocks/projects/__dropdown-content/_opened/projects__dropdown-content_opened.css);
 @import url(../blocks/projects/__pagination/projects__pagination.css);
 /* projects */
+
+/*education*/
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__subtitle/education__subtitle.css);
+@import url(../blocks/education/__text-block/education__text-block.css);
+@import url(../blocks/education/__card-title/education__card-title.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__card/_inActive/education__card_inActive.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__image/education__image.css);
+@import url(../blocks/education/__bar/education__bar.css);
+@import url(../blocks/education/__tab/education__tab.css);
+@import url(../blocks/education/__tab/_active/education__tab_active.css);
+@import url(../blocks/education/__paragraph/education__paragraph.css);
+/*education*/
+
+@import url(../blocks/swiper/swiper.css);
+
+
+/*logo*/
+@import url(../blocks/weWork/weWork.css);
+@import url(../blocks/weWork/__title/weWork__title.css);
+@import url(../blocks/weWork/__subtitle/weWork__subtitle.css);
+@import url(../blocks/weWork/__logo-container/weWork__logo-container.css);
+@import url(../blocks/weWork/__logo/weWork__logo.css);
+/*logo*/
+
+

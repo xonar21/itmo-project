@@ -2,3 +2,9 @@
     margin-right: 21px;
     width: 32px;
 }
+
+@media screen and (max-width: 1124px) {
+    .header__exit {
+        width: 24px;
+    }
+}

@@ -7,3 +7,10 @@
     margin: 0;
     margin-bottom: 8px;
 }
+
+@media screen and (max-width: 746px) {
+    .aboutUs__date {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

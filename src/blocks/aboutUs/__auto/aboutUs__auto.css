@@ -3,4 +3,11 @@
     flex-direction: column;
     max-width: 1132px;
     margin: 0 auto;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 1368px) {
+    .aboutUs__auto-swiper {
+        max-width: 768px;
+    }
 }
