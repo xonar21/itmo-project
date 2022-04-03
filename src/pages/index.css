@@ -58,7 +58,6 @@
 @import url(../blocks/projects/__pagination-arrow/projects__pagination-arrow.css);
 @import url(../blocks/projects/__pagination-arrow/_left/projects__pagination-arrow_left.css);
 @import url(../blocks/projects/__pagination-arrow/_right/projects__pagination-arrow_right.css);
-
 @import url(../blocks/projects/__dropdown/projects__dropdown.css);
 @import url(../blocks/projects/__dropdown-content/projects__dropdown-content.css);
 @import url(../blocks/projects/__dropdown-menu/projects__dropdown-menu.css);
@@ -67,27 +66,4 @@
 @import url(../blocks/projects/__menu-dropdown-button/projects__menu-dropdown-button.css);
 @import url(../blocks/projects/__dropdown-content/_opened/projects__dropdown-content_opened.css);
 @import url(../blocks/projects/__pagination/projects__pagination.css);
-
-.projects__dropdown-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 44px;
-    border-bottom: 2px solid #009FAC;
-    box-sizing: border-box;
-}
-.projects__dropdown-active-link {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.swiper-slide_hide {
-    display: none;
-}
-
 /* projects */
