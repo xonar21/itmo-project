@@ -1,0 +1,31 @@
+.card__sharePopup {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    width: 196px;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    padding: 6px 4px 6px 4px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    top: -44px; right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility .4s linear, opacity .4s;
+}
+
+.card__sharePopup::after {
+    content: '';
+    position: absolute;
+    right: 20px; top: 40px;
+    border: 10px solid transparent;
+    border-top: 15px solid #E0F0FF;
+}
+.card__sharePopup::before {
+    content: '';
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgba(0, 0, 0, 0);
+}
