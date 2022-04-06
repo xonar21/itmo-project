@@ -1,0 +1,20 @@
+.aboutUs__cards {
+   left: 0px;
+   display: flex;
+   width: 1123px;
+   transition: all 0.5s ease;
+   position: relative; 
+}
+
+@media screen and (max-width: 1229px) {
+   .aboutUs__cards {
+      width: 740px;
+   }
+}
+
+@media screen and (max-width: 746px) {
+   .aboutUs__cards {
+      width: 314px;
+   }
+}
+
