@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/likely.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
     <title>ИТМО</title>
   </head>
   <body>
     <div class="page">
+      
       <!-- <header class="header">
             <img class="header__logo" src="./images/Logo_AI 1.svg" alt="logo">
             <nav class="header__nav">
@@ -38,7 +43,8 @@
         class="section page__publications publication"
       >
         <h2 class="section__title publication__title">Публикации</h2>
-        <div class="publication__swiper swiper">
+        <div class="swiper mySwiper publication__swiper">
+          <div class="swiper-wrapper">
           <div class="swiper__arrow swiper__arrow_left swiper-button-prev">
             <img
               class="swiper__arrow-icon"
@@ -55,35 +61,37 @@
             />
           </div>
         </div>
+      </div>
+        <div class="swiper-pagination"></div>
       </section>
       <section class="ourTeam page__ourTeam">
         <h2 class="section__title ourTeam__title">НАША КОМАНДА</h2>
-        <div class="swiper ourTeam__swiper">
-          <ul class="list cards cards_ourTeam">
-            <li class="card card_ourTeam">
-              <article class="">
-                <img
-                  src="./images/Team/man photo-1.png"
-                  alt="Бобцов
-                          Алексей
-                          Алексеевич"
-                  class="card__img card__img_ourTeam"
-                />
-                <h3 class="card__title card__title_ourTeam">
-                  Бобцов Алексей Алексеевич
-                </h3>
-                <p class="card__caption card__caption_ourTeam">Директор</p>
-              </article>
-            </li>
+        <div class="swiper mySwiper ourTeam__swiper">
+          <div class="swiper__arrow swiper__arrow_left swiper-button-prev">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div>
+          <ul class="list cards cards_ourTeam">        
           </ul>
+          <div class="swiper__arrow swiper__arrow_rigth swiper-button-next">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
       </section>
-      <section class="weWork"></section>
+      <section class="weWork" style="background-color: blue; height: 300px;"></section>
       <section class="feedback"></section>
       <footer class="footer"></footer>
     </div>
     <template id="cardPublication">
-      <li class="swiper-slide cards__item card">
+      <li class="swiper-slide swiper-slide cards__item card">
         <article class="card__article">
           <div class="card__body">
             <img
@@ -133,8 +141,44 @@
         </article>
       </li>
     </template>
+    <template id="cardOurTeam">
+      <li class="swiper-slide card card_place_ourTeam">
+        <article class="">
+          <img
+            src="./images/Team/man photo-1.png"
+            alt=""
+            class="card__img card__img_ourTeam"
+          />
+          <h3 class="card__title card__title_place_ourTeam">
+          </h3>
+          <p class="card__caption card__caption_place_ourTeam"></p>
+        </article>
+      </li>
+    </template>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  
     <script src="./scripts/constance.js" type="module"></script>
     <script src="./scripts/publications.js" type="module"></script>
+    <script src="./scripts/ourTeam.js" type="module"></script>
     <script src="./vendor/likely.js" type="module"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
   </body>
 </html>

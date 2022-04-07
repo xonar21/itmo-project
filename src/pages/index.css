@@ -19,6 +19,8 @@
 
 @import url(../blocks/list/list.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/cards/cards_publications.css);
+@import url(../blocks/cards/cards_ourTeam.css);
 @import url(../blocks/card/__article/card__article.css);
 @import url(../blocks/card/__authors/card__authors.css);
 @import url(../blocks/card/__body/card__body.css);
@@ -39,3 +41,11 @@
 @import url(../blocks/swiper/__arrow/swiper__arrow_rigth.css);
 @import url(../blocks/swiper/__arrow/swiper__arrow_left.css);
 @import url(../blocks/swiper/__arrow-icon/swiper__arrow-icon.css);
+
+@import url(../blocks/page/__ourTeam/page__ourTeam.css);
+@import url(../blocks/card/_place/card_place_ourTeam.css);
+@import url(../blocks/card/__title/_place/card__title_place_ourTeam.css);
+@import url(../blocks/card/__caption/_place/card__caption_place_ourTeam.css);
+@import url(../blocks/ourTeam/ourTeam_swiper.css);
+
+@import url(../blocks/section/section__title.css)

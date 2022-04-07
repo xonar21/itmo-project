@@ -16,7 +16,6 @@ function createCard(publication) {
     cardElement.querySelector(".card__title").textContent = publication.title;
     cardElement.querySelector(".card__authors").textContent = publication.authors;
     cardElement.querySelector(".card__description").textContent = publication.text;
-    // setEventListeners();
     cardElementShareIcon.addEventListener('click', () => {
         cardElementPopup.classList.add('active');
         cardElementPopup.addEventListener('click', () => {
