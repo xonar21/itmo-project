@@ -93,12 +93,31 @@
 @import url(../blocks/swiper/swiper.css);
 
 
-/*logo*/
+/*weWork*/
 @import url(../blocks/weWork/weWork.css);
 @import url(../blocks/weWork/__title/weWork__title.css);
 @import url(../blocks/weWork/__subtitle/weWork__subtitle.css);
 @import url(../blocks/weWork/__logo-container/weWork__logo-container.css);
 @import url(../blocks/weWork/__logo/weWork__logo.css);
-/*logo*/
+/*weWork*/
+
+/*foooter*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__head/footer__head.css);
+@import url(../blocks/footer/__linkContainer/footer__linkContainer.css);
+@import url(../blocks/footer/__linkList/footer__linkList.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__columnTitle/footer__columnTitle.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__city/footer__city.css);
+@import url(../blocks/footer/__headText/footer__headText.css);
+@import url(../blocks/footer/__aboutUs/footer__aboutUs.css);
+
+/*foooter*/
+
 
 
