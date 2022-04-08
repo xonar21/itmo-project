@@ -1,0 +1,16 @@
+.card__authors {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #009FAC;
+  margin: 0 auto 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__authors {
+    margin: 0 auto 12px;
+  }
+  
+}

@@ -1,0 +1,11 @@
+.page__ourTeam {
+  background: #E0F0FF;
+  padding: 0 39px 50px;
+}
+
+/* @media screen and (min-width: 1440px) {
+  .page__ourTeam {
+    width: 1440px;
+    margin: 0 auto;
+  }
+} */

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./vendor/likely.css">
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -90,7 +92,7 @@
                             <div class="swiper-wrapper aboutUs-container">
                             </div>
                             <template id="aboutUs-element">
-                                <div class="swiper-slide">
+                                <div class="swiper-slide swiper-slide_aboutUs">
                                     <img class="aboutUs__pin" src="./images/pin.svg" alt="">
                                     <p class="aboutUs__date">
                                     </p>
@@ -110,7 +112,6 @@
 
             </section>
         </div>
-
         <section class="industrial">
 
         </section>
@@ -163,7 +164,7 @@
 
             </div>
             <template id="project-element">
-                <div class="swiper-slide swiper-padding-none">
+                <div class="swiper-slide swiper-slide_project swiper-padding-none">
                     <div class="projects__item">
                         <svg class="projects__item-logo" width="112" height="48" viewBox="0 0 112 48"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -230,34 +231,191 @@
         <section class="ourTeam">
 
         </section>
-        <section class="weWork">
-            <h2 class="weWork__title">С КЕМ МЫ РАБОТАЕМ</h2>
-            <p class="weWork__subtitle">За время сотрудничества компания показала себя как надежный партнер,
-                способный оперативно решать вопросы по внесению необходимых изменений.
-            </p>
-            <p class="weWork__subtitle">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
-                Надеемся на дальнейшее и плодотворное сотрудничество.</p>
-            <div class="weWork__logo-container">
-                <img class="weWork__logo" src="images/logo/rosveft.svg" alt="">
-                <img class="weWork__logo" src="images/logo/gazprom.svg" alt="">
-                <img class="weWork__logo" src="images/logo/mailLogo.svg" alt="">
-                <img class="weWork__logo" src="images/logo/siemens-logo.svg" alt="">
-                <img class="weWork__logo" src="images/logo/mailLogo.svg" alt="">
-                <img class="weWork__logo" src="images/logo/gazprom.svg" alt="">
-                <img class="weWork__logo" src="images/logo/sberbank.svg" alt="">
-                <img class="weWork__logo" src="images/logo/huawei.svg" alt="">
-                <img class="weWork__logo" src="images/logo/sberbank.svg" alt="">
-                <img class="weWork__logo" src="images/logo/huawei.svg" alt="">
-            </div>
-        </section>
-        <section class="feedback" style="width: 100%; color: white; height: 30px">
 
 
-        </section>
-        <footer class="footer">
 
-        </footer>
+        </section> 
+      <section
+        name="publications"
+        class="section page__publications publication"
+      >
+      <div class="publication__content">
+        <h2 class="section__title publication__title">Публикации</h2>
+        <div class="swiper mySwiper publication__swiper">
+          <div class="swiper-wrapper">
+          <div class="swiper__arrow swiper__arrow_left swiper-button-prev">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div>
+          <ul class="list cards cards_publications"></ul>
+          <div class="swiper__arrow swiper__arrow_rigth swiper-button-next">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </section>
+      <section class="ourTeam page__ourTeam">
+        <div class="ourTeam__content">
+            <h2 class="section__title ourTeam__title">НАША КОМАНДА</h2>
+            <!-- <div class="swiper mySwiper swiper-overflow">
+                <div class="swiper-wrapper aboutUs-container">
+                </div>
+                <template id="aboutUs-element">
+                    <div class="swiper-slide swiper-slide_aboutUs">
+                        <img class="aboutUs__pin" src="./images/pin.svg" alt="">
+                        <p class="aboutUs__date">
+                        </p>
+                        <h3 class="aboutUs__smallTitle">
+                        </h3>
+                        <p class="aboutUs__text">
+                        </p>
+                      </div>
+                  </template>
+              </div> -->
+        <div class="swiper mySwiper ourTeam__swiper swiper-overflow">
+          <!-- <div class="swiper__arrow swiper__arrow_left swiper-button-prev">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div> -->
+          <ul class="swiper-wrapper list cards cards_ourTeam">        
+          </ul>
+          <!-- <div class="swiper__arrow swiper__arrow_rigth swiper-button-next">
+            <img
+              class="swiper__arrow-icon"
+              src="./images/publications/Icon/arrow-right.svg"
+              alt=""
+            />
+          </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="weWork">
+        <h2 class="weWork__title">С КЕМ МЫ РАБОТАЕМ</h2>
+        <p class="weWork__subtitle">За время сотрудничества компания показала себя как надежный партнер,
+            способный оперативно решать вопросы по внесению необходимых изменений.
+        </p>
+        <p class="weWork__subtitle">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+            Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+        <div class="weWork__logo-container">
+            <img class="weWork__logo" src="images/logo/rosveft.svg" alt="">
+            <img class="weWork__logo" src="images/logo/gazprom.svg" alt="">
+            <img class="weWork__logo" src="images/logo/mailLogo.svg" alt="">
+            <img class="weWork__logo" src="images/logo/siemens-logo.svg" alt="">
+            <img class="weWork__logo" src="images/logo/mailLogo.svg" alt="">
+            <img class="weWork__logo" src="images/logo/gazprom.svg" alt="">
+            <img class="weWork__logo" src="images/logo/sberbank.svg" alt="">
+            <img class="weWork__logo" src="images/logo/huawei.svg" alt="">
+            <img class="weWork__logo" src="images/logo/sberbank.svg" alt="">
+            <img class="weWork__logo" src="images/logo/huawei.svg" alt="">
+        </div>
+    </section>
+    <section class="feedback" style="width: 100%; color: white; height: 30px">
+      <section class="feedback"></section>
+      <footer class="footer"></footer>
     </div>
+    <template id="cardPublication">
+      <li class="swiper-slide swiper-slide cards__item card">
+        <article class="card__article">
+          <div class="card__body">
+            <img
+              src="./images/publications/publicaion_Intellectual Execution Scheme of Iterative Computational Models ….png"
+              alt=""
+              class="card__img"
+            />
+            <h3 class="card__title">
+              Topic-driven Ensemble for Online Advertising Generation
+            </h3>
+            <p class="card__authors">
+              Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov,
+              Denis Nasonov
+            </p>
+            <p class="card__description">
+              Online advertising is one of the most widespread ways to reach and
+              increase a target audience for those selling products. Usually
+              having a form of a banner, advertising engages users into visiting
+              a corresponding webpage. Professional generation of banners
+              requires creative and writing skills and a basi…
+            </p>
+          </div>
+          <div class="card__bottom">
+            <a href="" class="link card__link">Читать полностью →</a>
+            <img
+              src="./images/publications/Vector.svg"
+              class="card__icon card__icon_share"
+            />
+            <ul class="card__sharePopup">
+              <li class="likely likely-big">
+                <div class="vkontakte"></div>
+              </li>
+              <li class="likely likely-big">
+                <div class="facebook"></div>
+              </li>
+              <li class="likely likely-big">
+                <div class="telegram"></div>
+              </li>
+              <li class="likely likely-big">
+                <div class="twitter"></div>
+              </li>
+              <li class="likely likely-big">
+                <div class="whatsapp"></div>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </li>
+    </template>
+    <template id="cardOurTeam">
+      <li class="swiper-slide card card_place_ourTeam">
+        <article class="">
+          <img
+            src="./images/Team/man photo-1.png"
+            alt=""
+            class="card__img card__img_ourTeam"
+          />
+          <h3 class="card__title card__title_place_ourTeam">
+          </h3>
+          <p class="card__caption card__caption_place_ourTeam"></p>
+        </article>
+      </li>
+    </template>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  
+    <script src="./scripts/constance.js" type="module"></script>
+    <script src="./scripts/publications.js" type="module"></script>
+    <script src="./scripts/ourTeam.js" type="module"></script>
+    <script src="./vendor/likely.js" type="module"></script>
+    <script>
+    //   var swiper = new Swiper(".mySwiper", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 30,
+    //     slidesPerGroup: 3,
+    //     loop: true,
+    //     loopFillGroupWithBlank: true,
+    //     pagination: {
+    //       el: ".swiper-pagination",
+    //       clickable: true,
+    //     },
+    //     navigation: {
+    //       nextEl: ".swiper-button-next",
+    //       prevEl: ".swiper-button-prev",
+    //     },
+    //   });
+    </script>
     <script type="module" src="./pages/index.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="./components/projects.js"></script>
@@ -265,4 +423,7 @@
 
 </body>
 
+</html>
+
+  </body>
 </html>

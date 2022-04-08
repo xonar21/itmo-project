@@ -1,0 +1,7 @@
+@media screen and (min-width: 1440px) {
+  .publication__content {
+    margin: 0 auto;
+    width: 1440px;
+  }
+  
+}
