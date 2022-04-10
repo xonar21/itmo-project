@@ -101,6 +101,20 @@
 @import url(../blocks/weWork/__logo/weWork__logo.css);
 /*weWork*/
 
+/*feedback*/
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__inputList/feedback__inputList.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__submitBtn/feedback__submitBtn.css);
+@import url(../blocks/feedback/__input/_message/feedback__input_message.css);
+@import url(../blocks/highlight/highlight.css);
+
+
+/*feedback*/
+
 /*foooter*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__head/footer__head.css);
@@ -116,7 +130,6 @@
 @import url(../blocks/footer/__city/footer__city.css);
 @import url(../blocks/footer/__headText/footer__headText.css);
 @import url(../blocks/footer/__aboutUs/footer__aboutUs.css);
-
 /*foooter*/
 
 
