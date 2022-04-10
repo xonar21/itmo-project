@@ -75,6 +75,7 @@
 
 /*education*/
 @import url(../blocks/education/education.css);
+@import url(../blocks/education/__container/education__container.css);
 @import url(../blocks/education/__title/education__title.css);
 @import url(../blocks/education/__subtitle/education__subtitle.css);
 @import url(../blocks/education/__text-block/education__text-block.css);
@@ -95,6 +96,7 @@
 
 /*weWork*/
 @import url(../blocks/weWork/weWork.css);
+@import url(../blocks/weWork/__container/weWork__container.css);
 @import url(../blocks/weWork/__title/weWork__title.css);
 @import url(../blocks/weWork/__subtitle/weWork__subtitle.css);
 @import url(../blocks/weWork/__logo-container/weWork__logo-container.css);
@@ -103,6 +105,7 @@
 
 /*feedback*/
 @import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__container/feedback__container.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
 @import url(../blocks/feedback/__form/feedback__form.css);
@@ -117,6 +120,7 @@
 
 /*foooter*/
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__head/footer__head.css);
 @import url(../blocks/footer/__linkContainer/footer__linkContainer.css);
 @import url(../blocks/footer/__linkList/footer__linkList.css);
