@@ -1,18 +1,3 @@
-/*.weWork__logo-container {
-    width: 100%;
-    display: flex;
-    margin: 25px auto 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}*/
-
-/*@media screen and (min-width: 1024px) {
-    .weWork__logo-container {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}*/
 .weWork__logo-container {
     width: 100%;
     display: grid;

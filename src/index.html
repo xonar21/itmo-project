@@ -62,11 +62,9 @@
                         <p class="aboutUs__ai">
                             Системы прикладного искусственного интеллекта
                         </p>
-                        <button type="button" class="aboutUs__button">
+                        <button type="button" class="aboutUs__button highlight">
                             Наши проекты
                         </button>
-
-
                     </div>
                 </div>
                 <div class="aboutUs__auto">
@@ -150,8 +148,8 @@
 
                 <div class="swiper mySwiper-projects">
                     <div class="swiper-wrapper projects__container">
-                        
-                        
+
+
 
                     </div>
                     <div class="projects__pagination">
@@ -219,7 +217,7 @@
                 </div>
                 <img class="education__image" src="./images/aspirant.png" alt="фото выпускников ИТМО">
             </div>
-            <div class="education__bar">
+            <div class="education__bar highlight">
                 <button class="education__tab education__tab_aspirant">АСПИРАНТУРА</button>
                 <button class="education__tab education__tab_magistr education__tab_active">МАГИСТРАТУРА</button>
             </div>
@@ -250,9 +248,21 @@
                 <img class="weWork__logo" src="images/logo/huawei.svg" alt="">
             </div>
         </section>
-        <section class="feedback" style="width: 100%; color: white; height: 30px">
-
-
+        <section class="feedback">
+            <h2 class="feedback__title">ВСЕГДА НА СВЯЗИ</h2>
+            <p class="feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться
+                по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.
+            </p>
+            <form class="feedback__form" name="feedbackForm">
+                <div class="feedback__inputList">
+                    <input class="feedback__input input" type="text" name="name" placeholder="Имя" required minlength="2" maxlength="50">
+                    <input class="feedback__input input" type="text" name="surname" placeholder="Фамилия" minlength="2" maxlength="50">
+                    <input class="feedback__input input" type="number" name="phone" placeholder="Телефон" required>
+                    <input class="feedback__input input" type="email" name="email" placeholder="E-mail">
+                    <textarea class="feedback__input feedback__input_message input" name="message" type="text" placeholder="Сообщение" required></textarea>
+                </div>
+                <button class="feedback__submitBtn button highlight" type="submit">ОТПРАВИТЬ</button>
+            </form>
         </section>
         <footer class="footer">
             <div class="footer__head">
