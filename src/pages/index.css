@@ -46,7 +46,23 @@
 
 /* aboutUs */
 
+/* industrial */
+@import url(../blocks/industrial/industrial.css);
+@import url(../blocks/industrial/__title/industrial__title.css);
+@import url(../blocks/industrial/__image/industrial__image.css);
+@import url(../blocks/industrial/__text/industrial__text.css);
+@import url(../blocks/industrial/__cards/industrial__cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_activated/card_activated.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_activated/card__title_activated.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__button/_activated/card__button_activated.css);
+@import url(../blocks/industrial);
 
+/* industrial */
 
 /* projects */
 @import url(../blocks/projects/projects.css);

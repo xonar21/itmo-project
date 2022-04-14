@@ -1,0 +1,5 @@
+.industrial__image {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}

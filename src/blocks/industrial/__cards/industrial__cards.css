@@ -1,0 +1,11 @@
+.industrial__cards {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 0;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+}
