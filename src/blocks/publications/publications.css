@@ -1,0 +1,131 @@
+.section__title {
+  margin: 0 auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) {
+  .section__title {
+    font-size: 36px;
+    line-height: 68px;
+
+  }
+  
+}
+
+/* .swiper-slide_publications {
+  height: 545px;
+} */
+
+/* @media screen and (max-width: 1440px) {
+  .swiper-slide_publications {
+    height: 515px;
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .swiper-slide_publications {
+    height: 462px;
+  }
+} */
+
+.publications-swipper {
+  position: relative;
+  width: 1369px;
+  /* height: 545px; */
+  margin: 0 auto;
+  transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 1368px) {
+  /* .swiper-button-next, .swiper-button-prev{
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+  } */
+  .publications-swipper {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .publications-swipper {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .publications-swipper {
+      width: 90%;
+      /* height: 462px; */
+  }
+  .swiper-slide {
+      height: 260px;
+      padding: 16px 16px 0;
+  }
+}
+
+.page__publications {
+  background: #E0F0FF;
+  padding: 80px 89px;
+}
+
+@media screen and (max-width: 1339px) {
+  .page__publications {
+    padding: 60px 39px;
+  }
+  
+}
+
+  .page__publications {
+    padding: 39px 0px;
+  }
+  
+/* 
+@media screen and (max-width: 767px) {
+  .page__publications {
+    padding: 40px 0px;
+  } */
+/*   
+} */
+
+.swiper-slide_publications {
+  height: 515px; 
+}
+@media screen and (max-width: 767px) {
+.swiper-slide_publications {
+  height: 539px; 
+}
+}
+.publications__auto {
+  display: flex;
+  flex-direction: column;
+  max-width: 1142px;
+  margin: 0 auto;
+  transition: all .5s ease;
+}
+
+@media screen and (max-width: 1368px) {
+  .publications__auto-swiper {
+      max-width: 82%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .publications__auto-swiper {
+      max-width: 90%px;
+  }
+}

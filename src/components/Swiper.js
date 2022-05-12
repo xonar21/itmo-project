@@ -17,9 +17,9 @@ function slider(perview,group) {
         },
       });
 }
-        if(windowOuterWidth < 1368 && windowOuterWidth > 786) {
+        if(windowOuterWidth < 1368 && windowOuterWidth > 600) {
             slider(2,1)
-        } else if (windowOuterWidth < 786) {
+        } else if (windowOuterWidth < 600) {
             slider(1,1)
         }
          else {
@@ -28,9 +28,9 @@ function slider(perview,group) {
         
 window.addEventListener('resize', () => {
     windowOuterWidth = window.outerWidth
-    if(windowOuterWidth < 1368 && windowOuterWidth > 786) {
+    if(windowOuterWidth < 1368 && windowOuterWidth > 600) {
         slider(2,1)
-    } else if (windowOuterWidth < 786) {
+    } else if (windowOuterWidth < 600) {
         slider(1,1)
     }
      else {

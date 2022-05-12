@@ -1,0 +1,30 @@
+.card_publications {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+
+}
+
+@media screen and (max-width: 430px) {
+  .card_publications {
+    height: auto;}
+}
+
+
+/* @media screen and (min-width: 768px) {
+  .card {
+    width: 100%;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+
+  }
+
+} */

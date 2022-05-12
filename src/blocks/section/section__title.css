@@ -1,0 +1,28 @@
+.section__title {
+  margin: 0 auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) {
+  .section__title {
+    font-size: 36px;
+    line-height: 68px;
+
+  }
+  
+}
+

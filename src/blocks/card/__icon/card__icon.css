@@ -1,0 +1,8 @@
+.card__icon {
+    width: 20.58px;
+    height: 21.47px;
+}
+
+.card__icon:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.card__title_place_ourTeam {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.0588372px;
+  color: #000D26;
+  margin: 10px auto 4;
+}
+
+@media screen and (min-width: 768px) {
+  .card__title_place_ourTeam {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) { 
+  .card__title_place_ourTeam {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+}

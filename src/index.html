@@ -224,8 +224,22 @@
                 <button class="education__tab education__tab_magistr education__tab_active">МАГИСТРАТУРА</button>
             </div>
         </section>
-        <section class="publications">
-
+        <section name="publications"
+        class="section page__publications publication">
+        <div class="publication__content">
+            <h2 class="section__title publication__title">Публикации</h2>
+            <div class="publications-swipper">
+                <img class="swiper-button-prev" src="./images/arrow.svg" alt="">
+                <div class="publications__auto publications__auto-swiper">
+                    <div class="swiper mySwiper swiper-overflow">
+                        <ul class=" swiper-wrapper list cards_publications"></ul>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <img class="swiper-button-next" src="./images/arrow2.svg" alt="">
+                </div>    
+            </div>
+        </div>
         </section>
         <section class="ourTeam">
 
@@ -258,10 +272,68 @@
 
         </footer>
     </div>
+
+    <!-- <script src="./scripts/constance.js" type="module"></script> -->
+    <script src="./components/publications.js" type="module"></script>
+    <!-- <script src="./scripts/ourTeam.js" type="module"></script> -->
+    <!-- <script src="./vendor/likely.js" type="module"></script> -->
+
     <script type="module" src="./pages/index.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="./components/projects.js"></script>
     <script type="module" src="./components/Swiper.js"></script>
+
+    <template id="cardPublication">
+        <li class="swiper-slide swiper-slide_publications cards__item card_publications">
+          <article class="card__article">
+            <div class="card__body">
+              <img
+                src="./images/publications/publicaion_Intellectual Execution Scheme of Iterative Computational Models ….png"
+                alt=""
+                class="card__img"
+              />
+              <h3 class="card__title">
+                Topic-driven Ensemble for Online Advertising Generation
+              </h3>
+              <p class="card__authors">
+                Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov,
+                Denis Nasonov
+              </p>
+              <p class="card__description">
+                Online advertising is one of the most widespread ways to reach and
+                increase a target audience for those selling products. Usually
+                having a form of a banner, advertising engages users into visiting
+                a corresponding webpage. Professional generation of banners
+                requires creative and writing skills and a basi…
+              </p>
+            </div>
+            <div class="card__bottom">
+              <a href="" class="link card__link">Читать полностью →</a>
+              <img
+                src="./images/publications/Vector.svg"
+                class="card__icon card__icon_share"
+              />
+              <ul class="card__sharePopup">
+                <li class="likely likely-big">
+                  <div class="vkontakte"></div>
+                </li>
+                <li class="likely likely-big">
+                  <div class="facebook"></div>
+                </li>
+                <li class="likely likely-big">
+                  <div class="telegram"></div>
+                </li>
+                <li class="likely likely-big">
+                  <div class="twitter"></div>
+                </li>
+                <li class="likely likely-big">
+                  <div class="whatsapp"></div>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </li>
+    </template>
 
 </body>
 
